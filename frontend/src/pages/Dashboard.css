@@ -1,0 +1,38 @@
+.dashboard {
+  padding: 2rem;
+}
+
+.dashboard h1 {
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.dashboard-container {
+  display: grid;
+  gap: 2rem;
+}
+
+.store-selector {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.store-selector label {
+  font-weight: 600;
+  color: #666;
+}
+
+.store-selector select {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.dashboard-loading {
+  text-align: center;
+  padding: 3rem;
+  color: #666;
+}
