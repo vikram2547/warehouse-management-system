@@ -1,0 +1,56 @@
+.store-inventory {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.store-inventory h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.no-data {
+  color: #999;
+  text-align: center;
+  padding: 2rem;
+}
+
+.inventory-table-wrapper {
+  overflow-x: auto;
+}
+
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.inventory-table thead {
+  background: #f5f5f5;
+}
+
+.inventory-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #666;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.inventory-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.inventory-table tbody tr:hover {
+  background: #f9f9f9;
+}
+
+.inventory-table tbody tr.low-stock {
+  background: #fff3cd;
+}
+
+.inventory-table tbody tr.low-stock td {
+  color: #856404;
+}
