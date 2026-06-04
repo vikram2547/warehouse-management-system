@@ -1,0 +1,188 @@
+.transfers-page,
+.invoices-page {
+  padding: 2rem;
+}
+
+.transfers-page h1,
+.invoices-page h1 {
+  color: #333;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  margin: 0;
+}
+
+.transfer-form,
+.invoice-form {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.transfers-table-wrapper,
+.invoices-table-wrapper {
+  overflow-x: auto;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.transfers-table,
+.invoices-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transfers-table thead,
+.invoices-table thead {
+  background: #f5f5f5;
+}
+
+.transfers-table th,
+.invoices-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #666;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.transfers-table td,
+.invoices-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.transfers-table tbody tr:hover,
+.invoices-table tbody tr:hover {
+  background: #f9f9f9;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.status-select {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white !important;
+}
+
+.total-col {
+  font-weight: 600;
+  color: #333;
+}
+
+.no-data {
+  text-align: center;
+  padding: 2rem;
+  color: #999;
+  font-size: 1.1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #0056b3;
+}
+
+.btn-success {
+  background: #28a745;
+  color: white;
+}
+
+.btn-success:hover:not(:disabled) {
+  background: #1e7e34;
+}
+
+.btn-success:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.btn-info {
+  background: #17a2b8;
+  color: white;
+}
+
+.btn-info:hover {
+  background: #138496;
+}
+
+.btn-danger {
+  background: #dc3545;
+  color: white;
+}
+
+.btn-danger:hover {
+  background: #c82333;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.75rem;
+  font-size: 0.8rem;
+  margin: 0 0.25rem;
+}
